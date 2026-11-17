@@ -1,0 +1,7 @@
+[
+  {
+    "rule": "county",
+    "budget": 80000,
+    "maximum_per_site": 50000
+  }
+]

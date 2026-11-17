@@ -1,0 +1,152 @@
+[
+  {
+    "group": "P0",
+    "village": "V0",
+    "population": 30,
+    "population_low": 27,
+    "population_high": 35,
+    "mobility": "limited",
+    "maximum_minutes": 15,
+    "slots": [
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "group": "P1",
+    "village": "V0",
+    "population": 33,
+    "population_low": 30,
+    "population_high": 38,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "morning"
+    ]
+  },
+  {
+    "group": "P2",
+    "village": "V1",
+    "population": 36,
+    "population_low": 33,
+    "population_high": 41,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "group": "P3",
+    "village": "V1",
+    "population": 39,
+    "population_low": 36,
+    "population_high": 44,
+    "mobility": "limited",
+    "maximum_minutes": 15,
+    "slots": [
+      "morning"
+    ]
+  },
+  {
+    "group": "P4",
+    "village": "V2",
+    "population": 42,
+    "population_low": 39,
+    "population_high": 47,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "group": "P5",
+    "village": "V2",
+    "population": 45,
+    "population_low": 42,
+    "population_high": 50,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "morning"
+    ]
+  },
+  {
+    "group": "P6",
+    "village": "V3",
+    "population": 48,
+    "population_low": 45,
+    "population_high": 53,
+    "mobility": "limited",
+    "maximum_minutes": 15,
+    "slots": [
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "group": "P7",
+    "village": "V3",
+    "population": 51,
+    "population_low": 48,
+    "population_high": 56,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "morning"
+    ]
+  },
+  {
+    "group": "P8",
+    "village": "V4",
+    "population": 54,
+    "population_low": 51,
+    "population_high": 59,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "group": "P9",
+    "village": "V4",
+    "population": 57,
+    "population_low": 54,
+    "population_high": 62,
+    "mobility": "limited",
+    "maximum_minutes": 15,
+    "slots": [
+      "morning"
+    ]
+  },
+  {
+    "group": "P10",
+    "village": "V5",
+    "population": 60,
+    "population_low": 57,
+    "population_high": 65,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "group": "P11",
+    "village": "V5",
+    "population": 63,
+    "population_low": 60,
+    "population_high": 68,
+    "mobility": "ordinary",
+    "maximum_minutes": 40,
+    "slots": [
+      "morning"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "resource": "hall-team",
+    "seats": 45
+  },
+  {
+    "resource": "mobile-team",
+    "seats": 24
+  }
+]

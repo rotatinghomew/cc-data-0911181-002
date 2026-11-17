@@ -1,0 +1,182 @@
+[
+  {
+    "group": "P0",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P0",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P0",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P1",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P1",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P1",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P2",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P2",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P2",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P3",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P3",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P3",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P4",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P4",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P4",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P5",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P5",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P5",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P6",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P6",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P6",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P7",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P7",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P7",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P8",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P8",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P8",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P9",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P9",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P9",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P10",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P10",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P10",
+    "topic": "手机",
+    "weight": 0.2
+  },
+  {
+    "group": "P11",
+    "topic": "摄影",
+    "weight": 0.5
+  },
+  {
+    "group": "P11",
+    "topic": "书画",
+    "weight": 0.3
+  },
+  {
+    "group": "P11",
+    "topic": "手机",
+    "weight": 0.2
+  }
+]

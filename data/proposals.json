@@ -1,0 +1,16 @@
+[
+  {
+    "proposal": "nearby",
+    "site": "S0",
+    "topic": "摄影",
+    "slot": "evening",
+    "seats": 40
+  },
+  {
+    "proposal": "remote",
+    "site": "S3",
+    "topic": "手机",
+    "slot": "afternoon",
+    "seats": 24
+  }
+]

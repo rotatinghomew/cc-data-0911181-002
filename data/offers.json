@@ -1,0 +1,44 @@
+[
+  {
+    "offer": "C0",
+    "site": "S0",
+    "topic": "摄影",
+    "slot": "morning",
+    "seats": 15
+  },
+  {
+    "offer": "C1",
+    "site": "S0",
+    "topic": "书画",
+    "slot": "afternoon",
+    "seats": 19
+  },
+  {
+    "offer": "C2",
+    "site": "S1",
+    "topic": "手机",
+    "slot": "evening",
+    "seats": 23
+  },
+  {
+    "offer": "C3",
+    "site": "S1",
+    "topic": "摄影",
+    "slot": "morning",
+    "seats": 27
+  },
+  {
+    "offer": "C4",
+    "site": "S2",
+    "topic": "书画",
+    "slot": "afternoon",
+    "seats": 31
+  },
+  {
+    "offer": "C5",
+    "site": "S2",
+    "topic": "手机",
+    "slot": "evening",
+    "seats": 35
+  }
+]

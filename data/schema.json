@@ -1,0 +1,98 @@
+{
+  "groups": {
+    "key": [
+      "group"
+    ],
+    "required": [
+      "group",
+      "village",
+      "population",
+      "population_low",
+      "population_high",
+      "mobility",
+      "maximum_minutes",
+      "slots"
+    ],
+    "foreign": {}
+  },
+  "offers": {
+    "key": [
+      "offer"
+    ],
+    "required": [
+      "offer",
+      "site",
+      "topic",
+      "slot",
+      "seats"
+    ],
+    "foreign": {}
+  },
+  "routes": {
+    "key": [
+      "group",
+      "site"
+    ],
+    "required": [
+      "group",
+      "site",
+      "minutes",
+      "minutes_low",
+      "minutes_high"
+    ],
+    "foreign": {
+      "group": [
+        "groups",
+        "group"
+      ]
+    }
+  },
+  "preferences": {
+    "key": [
+      "group",
+      "topic"
+    ],
+    "required": [
+      "group",
+      "topic",
+      "weight"
+    ],
+    "foreign": {
+      "group": [
+        "groups",
+        "group"
+      ]
+    }
+  },
+  "proposals": {
+    "key": [
+      "proposal"
+    ],
+    "required": [
+      "proposal",
+      "site",
+      "topic",
+      "slot",
+      "seats"
+    ],
+    "foreign": {}
+  },
+  "funding_rules": {
+    "key": [
+      "rule"
+    ],
+    "required": [
+      "rule"
+    ],
+    "foreign": {}
+  },
+  "available_resources": {
+    "key": [
+      "resource"
+    ],
+    "required": [
+      "resource"
+    ],
+    "foreign": {}
+  }
+}
