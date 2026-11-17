@@ -11,7 +11,7 @@ from .workflow import OPERATIONS
 from .storage import DataError, Store, single
 
 
-def dispatch(store, path, query):
+def dispatch(store, path, query, journal=None):
     if path == '/health':
         return {'status': 'ok', 'tables': store.inventory()}
     if path == '/api/records':
@@ -19,6 +19,11 @@ def dispatch(store, path, query):
         if name is None:
             raise DataError('table required')
         return {'rows': store.table(name)}
+    if path == '/api/comparison-basis':
+        if journal is None:
+            raise DataError('journal unavailable')
+        basis_id = single(query, 'basis')
+        return journal.get('comparison', basis_id)
     if path not in ROUTES:
         raise KeyError(path)
     return ROUTES[path](store, query)
@@ -30,7 +35,9 @@ def make_server(store, host='127.0.0.1', port=0, journal=None):
         def do_GET(self):
             parsed = urlsplit(self.path)
             try:
-                payload = dispatch(store, parsed.path, parse_qs(parsed.query, keep_blank_values=True))
+                payload = dispatch(store, parsed.path,
+                                   parse_qs(parsed.query, keep_blank_values=True),
+                                   journal)
                 status = 200
             except KeyError:
                 status, payload = 404, {'error': 'not found'}

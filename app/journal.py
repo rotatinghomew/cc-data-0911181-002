@@ -30,6 +30,10 @@ class Journal:
             raise DataError('unknown '+kind+': '+str(key))
         return json.loads(row[0])
 
+    def peek(self,kind,key):
+        row=self.connection.execute('SELECT body FROM documents WHERE kind=? AND key=?',(kind,key)).fetchone()
+        return json.loads(row[0]) if row is not None else None
+
     def all(self,kind):
         return [json.loads(row[0]) for row in self.connection.execute(
             'SELECT body FROM documents WHERE kind=? ORDER BY key',(kind,))]
